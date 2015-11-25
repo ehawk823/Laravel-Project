@@ -38,7 +38,13 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">Twitter App</div>
+                <br>
+                <p>Please input a twitter handle via the link below</p>
+              {!! Form::open(array('url' => 'handle')) !!}
+                {!!  Form::text('username'); !!}
+                {!! Form::submit('Submit'); !!}
+              {!! Form::close() !!}
             </div>
         </div>
     </body>
