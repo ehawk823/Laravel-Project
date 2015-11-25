@@ -137,6 +137,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         'Illuminate\Html\HtmlServiceProvider',
+        // Jenssegers\Mongodb\MongodbServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -144,7 +145,6 @@ return [
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        Thujohn\Twitter\TwitterServiceProvider::class
 
     ],
 
@@ -196,7 +196,6 @@ return [
         'View'      => Illuminate\Support\Facades\View::class,
         'HTML'=> 'Illuminate\Html\HtmlFacade',
         'Form'=> 'Illuminate\Html\FormFacade',
-        'Twitter' => 'Thujohn\Twitter\Facades\Twitter',
     ],
 
 ];

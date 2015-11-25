@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::post('handle', 'Controller@create');
+Route::get('test', 'Test@index');
