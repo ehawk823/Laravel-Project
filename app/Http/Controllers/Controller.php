@@ -12,8 +12,9 @@ class Controller extends BaseController
 
     public function create()
     {
-      
+
         return view('handles');
     }
+
 
 }
